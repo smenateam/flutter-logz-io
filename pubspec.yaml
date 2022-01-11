@@ -1,0 +1,24 @@
+name: logging_appenders
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  meta: ^1.3.0
+  dio: ^4.0.1
+  intl: ^0.17.0
+  clock: ^1.1.0
+
+dev_dependencies:
+  test: ^1.16.4
+  #pedantic: ^1.11.1
+  mockito: ^5.0.0
+  fake_async: ^1.2.0
+  path: ^1.8.0
+  build_runner: ^1.11.1
+
+dependency_overrides:
+  #pedantic: ^1.8.0+1
+
